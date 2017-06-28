@@ -1,0 +1,197 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "size": "stretch",
+          "items": [
+            {
+              "size": "large",
+              "text": "Alaska Airlines",
+              "type": "TextBlock"
+            },
+            {
+              "size": "small",
+              "text": "Flight 524",
+              "type": "TextBlock",
+              "weight": "bolder"
+            },
+            {
+              "isSubtle": true,
+              "size": "small",
+              "text": "UXGG64",
+              "type": "TextBlock"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "size": "auto",
+          "items": [
+            {
+              "type": "Image",
+              "size": "small",
+              "url": "http://messagecardplayground.azurewebsites.net/assets/Airplane.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "color": "warning",
+      "separation": "strong",
+      "size": "small",
+      "text": "Status: Winter warning",
+      "type": "TextBlock"
+    },
+    {
+      "size": "small",
+      "text": "Departs in 3 hr 24 min",
+      "type": "TextBlock"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "size": "auto",
+          "items": [
+            {
+              "size": "small",
+              "text": "Depart",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "size": "stretch",
+          "items": [
+            {
+              "size": "small",
+              "text": "Seattle, WA",
+              "type": "TextBlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "size": "stretch",
+          "items": [
+            {
+              "isSubtle": true,
+              "size": "small",
+              "text": "Fri, Feb 3, 2017",
+              "type": "TextBlock"
+            },
+            {
+              "color": "warning",
+              "size": "large",
+              "text": "7:35 PM",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "size": "stretch",
+          "items": [
+            {
+              "isSubtle": true,
+              "size": "small",
+              "type": "TextBlock",
+              "text": "Gate"
+            },
+            {
+              "size": "large",
+              "text": "16C",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "size": "auto",
+          "items": [
+            {
+              "size": "small",
+              "text": "Arrive",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "size": "stretch",
+          "items": [
+            {
+              "size": "small",
+              "text": "Los Angeles, CA",
+              "type": "TextBlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "size": "stretch",
+          "items": [
+            {
+              "isSubtle": true,
+              "size": "small",
+              "text": "Fri, Feb 3, 2017",
+              "type": "TextBlock"
+            },
+            {
+              "color": "warning",
+              "size": "large",
+              "text": "9:55 PM",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "size": "stretch",
+          "items": [
+            {
+              "isSubtle": true,
+              "size": "small",
+              "type": "TextBlock",
+              "text": "Gate"
+            },
+            {
+              "size": "large",
+              "text": "2A",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

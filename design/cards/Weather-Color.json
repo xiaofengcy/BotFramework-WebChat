@@ -1,0 +1,189 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "Fri 20",
+              "type": "TextBlock"
+            }
+          ]
+        },
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "Seattle, WA",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Weather-Sunny-Color.png"
+            }
+          ]
+        },
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "size": "extraLarge",
+              "text": "50°",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        },
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "isSubtle": true,
+              "text": "40°",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Sunny",
+      "type": "TextBlock",
+      "weight": "bolder"
+    },
+    {
+      "isSubtle": true,
+      "size": "small",
+      "text": "10% chance of rain",
+      "type": "TextBlock"
+    },
+    {
+      "isSubtle": true,
+      "size": "small",
+      "text": "Winds 5 mph NE",
+      "type": "TextBlock"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "Sat 21",
+              "type": "TextBlock",
+              "weight": "bolder"
+            },
+            {
+              "size": "small",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Weather-Cloudy-Small-Color.png"
+            },
+            {
+              "size": "small",
+              "text": "49°",
+              "type": "TextBlock"
+            },
+            {
+              "isSubtle": true,
+              "separation": "none",
+              "size": "small",
+              "text": "39°",
+              "type": "TextBlock"
+            }
+          ]
+        },
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "Sun 22",
+              "type": "TextBlock",
+              "weight": "bolder"
+            },
+            {
+              "size": "small",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Weather-Rainy-Small-Color.png"
+            },
+            {
+              "size": "small",
+              "text": "49°",
+              "type": "TextBlock"
+            },
+            {
+              "isSubtle": true,
+              "separation": "none",
+              "size": "small",
+              "text": "39°",
+              "type": "TextBlock"
+            }
+          ]
+        },
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "Mon 23",
+              "type": "TextBlock",
+              "weight": "bolder"
+            },
+            {
+              "size": "small",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Weather-Sunny-Small-Color.png"
+            },
+            {
+              "size": "small",
+              "text": "49°",
+              "type": "TextBlock"
+            },
+            {
+              "isSubtle": true,
+              "separation": "none",
+              "size": "small",
+              "text": "39°",
+              "type": "TextBlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "isSubtle": true,
+      "size": "small",
+      "text": "Updated 2:15 PM",
+      "type": "TextBlock"
+    }
+  ]
+}

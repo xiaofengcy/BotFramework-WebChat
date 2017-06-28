@@ -1,0 +1,83 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "size": "large",
+      "text": "Card created: Publish",
+      "type": "TextBlock"
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "style": "person",
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/RichMessage.png"
+            }
+          ]
+        },
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "text": "Jeremy Cristiano",
+              "type": "TextBlock",
+              "weight": "bolder"
+            },
+            {
+              "text": "Fri, Feb 3, 2017",
+              "type": "TextBlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "maxLines": 3,
+      "text": "Now that we have defined the main rules and feature format, we need to produce a schema",
+      "type": "TextBlock"
+    },
+    {
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Board",
+          "value": "Adaptive card"
+        },
+        {
+          "title": "List",
+          "value": "Backlog"
+        },
+        {
+          "title": "Assigned to",
+          "value": "Dan Marshall"
+        },
+        {
+          "title": "Due date",
+          "value": "TBA"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "title": "Set due date",
+      "type": "Action.Submit"
+    },
+    {
+      "title": "Comment",
+      "type": "Action.Submit"
+    },
+    {
+      "title": "View details",
+      "type": "Action.Submit"
+    }
+  ]
+}

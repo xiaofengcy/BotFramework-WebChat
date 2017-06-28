@@ -1,0 +1,145 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "text": "Order confirmation",
+      "type": "TextBlock",
+      "weight": "bolder"
+    },
+    {
+      "separation": "strong",
+      "type": "FactSet",
+      "facts": [
+        {
+          "title": "Order number",
+          "value": "2341-23483720-38123"
+        },
+        {
+          "title": "Expected delivery time",
+          "value": "Mon Feb 13"
+        },
+        {
+          "title": "Payment method",
+          "value": "Visa ending in 2424"
+        },
+        {
+          "title": "Delivery address",
+          "value": "2424 Main St.\nSeattle, WA 98104"
+        }
+      ]
+    },
+    {
+      "separation": "strong",
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "Surface Studio",
+              "type": "TextBlock",
+              "weight": "bolder"
+            },
+            {
+              "size": "small",
+              "text": "$1299.00",
+              "type": "TextBlock"
+            },
+            {
+              "isSubtle": true,
+              "size": "small",
+              "text": "6th Gen Intel Core i5, 128GB SSD, 8GB",
+              "type": "TextBlock"
+            }
+          ]
+        },
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Receipt-Buttons.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "separation": "strong",
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "Tax",
+              "type": "TextBlock"
+            }
+          ]
+        },
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "$129.00",
+              "type": "TextBlock"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "separation": "strong",
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "Total",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        },
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "size": "small",
+              "text": "$1428.00",
+              "type": "TextBlock",
+              "weight": "bolder"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "title": "Confirm",
+      "type": "Action.Submit"
+    },
+    {
+      "title": "Edit",
+      "type": "Action.Submit"
+    },
+    {
+      "title": "Cancel",
+      "type": "Action.Submit"
+    }
+  ]
+}

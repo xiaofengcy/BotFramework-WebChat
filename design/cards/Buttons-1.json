@@ -1,0 +1,25 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Pick from these options:"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Http",
+      "method": "POST",
+      "url": "http://foo.com",
+      "title": "Button 01"
+    },
+    {
+      "type": "Action.Http",
+      "method": "POST",
+      "url": "http://foo.com",
+      "title": "Button 02"
+    }
+  ]
+}

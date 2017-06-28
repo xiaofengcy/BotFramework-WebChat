@@ -1,0 +1,54 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "text": "Compare to Mac",
+              "type": "TextBlock",
+              "weight": "bolder"
+            },
+            {
+              "isSubtle": true,
+              "size": "small",
+              "text": "Microsoft Surface Book",
+              "type": "TextBlock"
+            }
+          ]
+        },
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Thumbnail-2.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "maxLines": 2,
+      "type": "TextBlock",
+      "text": "It's easy to switch from Mac to Surface. Your new Surface will work well with iTunes, iCloud, and iPhone. And many of the gestures, shortcuts and features are similar to what you already know."
+    }
+  ],
+  "actions": [
+    {
+      "title": "Buy now",
+      "type": "Action.Submit"
+    },
+    {
+      "title": "View details",
+      "type": "Action.Submit"
+    }
+  ]
+}

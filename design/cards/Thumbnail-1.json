@@ -1,0 +1,44 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "size": "stretch",
+          "type": "Column",
+          "items": [
+            {
+              "text": "PixelSense",
+              "type": "TextBlock",
+              "weight": "bolder"
+            },
+            {
+              "isSubtle": true,
+              "size": "small",
+              "text": "Microsoft Surface Book",
+              "type": "TextBlock"
+            }
+          ]
+        },
+        {
+          "size": "auto",
+          "type": "Column",
+          "items": [
+            {
+              "type": "Image",
+              "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Thumbnail-1.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "maxLines": 2,
+      "type": "TextBlock",
+      "text": "With versatile modes of use and 6 million pixels in a 13.5\" screen, Surface Book lets you create without limitations, while giving you stunning resolution and true-to-life color."
+    }
+  ]
+}

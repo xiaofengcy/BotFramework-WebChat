@@ -1,0 +1,41 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "size": "stretch",
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Carousel-3.png"
+    },
+    {
+      "type": "TextBlock",
+      "text": "PixelSense",
+      "weight": "bolder"
+    },
+    {
+      "isSubtle": true,
+      "size": "small",
+      "type": "TextBlock",
+      "text": "Microsoft Surface Book Pro"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Let us help you find the right Surface Book for your life. Get the laptop you need to stay productive and kick back and have some fun at the end of the day."
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Http",
+      "method": "POST",
+      "url": "http://foo.com",
+      "title": "Buy now"
+    },
+    {
+      "type": "Action.Http",
+      "method": "POST",
+      "url": "http://foo.com",
+      "title": "Learn More"
+    }
+  ]
+}

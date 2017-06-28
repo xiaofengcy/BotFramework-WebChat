@@ -1,0 +1,51 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "size": "stretch",
+      "type": "Image",
+      "url": "https://raw.githubusercontent.com/compulim/BotFramework-WebChat/feat-new-cards/test/cards/design/Restaurant.png"
+    },
+    {
+      "text": "Serious Pie",
+      "type": "TextBlock",
+      "weight": "bolder"
+    },
+    {
+      "text": "XXXXO $$$",
+      "type": "TextBlock"
+    },
+    {
+      "isSubtle": true,
+      "size": "small",
+      "text": "Italian",
+      "type": "TextBlock"
+    },
+    {
+      "text": "316 Virginia St. Seattle,",
+      "type": "TextBlock"
+    },
+    {
+      "separation": "none",
+      "text": "WA 98101",
+      "type": "TextBlock"
+    },
+    {
+      "separation": "none",
+      "text": "(206) 838-7388",
+      "type": "TextBlock"
+    }
+  ],
+  "actions": [
+    {
+      "title": "Call restaurant",
+      "type": "Action.Submit"
+    },
+    {
+      "title": "Get directions",
+      "type": "Action.Submit"
+    }
+  ]
+}
